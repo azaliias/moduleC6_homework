@@ -9,7 +9,7 @@ const btnStart = document.querySelector('.start');
 let websocket;
 
 const error = () => {
-    writeToScreen('Невозможно получить ваше местоположение');
+    writeToScreen('Невозможно получить ваше местоположение', true);
 }
 
 const success = (position) => {
